@@ -11,7 +11,14 @@ code {
     monospace;
 }
 
-
+.container {
+  height: 780px; 
+  width: 480px; 
+  margin: 20px; 
+  background: red; 
+  align-content: left;
+  justify-content: left; 
+}
 
 .button {
   border-radius:50px;  
@@ -51,6 +58,14 @@ code {
   flex-wrap: wrap; 
 }
 
-.margin{
-  margin: 545px; 
+.wide {
+  width: 220px;
+}
+
+.display {
+  border-radius:50px;  
+  height: 100px; 
+  width: 460px;  
+  margin: 10px; 
+  background: gray; 
 }
